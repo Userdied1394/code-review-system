@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Code Review System</title>
-  <link rel="stylesheet" href="styles.css">
- <!-- Link to your CSS file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Review System</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Code Review System</h1>
-  </header>
-  <main>
-    <form id="uploadForm">
-      <label for="codeFile">Choose a file:</label>
-      <input type="file" id="codeFile" name="codeFile" required>
-      <button type="submit">Submit</button>
-    </form>
-    <section id="feedbackSection">
-      <!-- Feedback received from the backend will be displayed here -->
-    </section>
-  </main>
-  <footer>
-    <p>Made with ❤ by AIDS Legends</p>
-  </footer>
-  <script src="scripts.js"></script> <!-- Link to your JavaScript file -->
+    <header>
+        <div class="container">
+            <h1>Welcome to the Code Review System</h1>
+            <button id="uploadBtn">Upload Document</button>
+            <button id="chooseLangBtn">Choose Programming Language</button>
+        </div>
+    </header>
+    <main>
+        <!-- Student Panel Section -->
+        <section id="studentPanel">
+            <!-- Display student data here -->
+        </section>
+
+        <!-- Admin Panel Section -->
+        <section id="adminPanel">
+            <!-- Display admin data here -->
+        </section>
+    </main>
+    <footer>
+        <p>Website made by Hemagiri with ❤ Department of AIDS 2024</p>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
